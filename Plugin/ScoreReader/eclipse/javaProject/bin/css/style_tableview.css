@@ -1,0 +1,4 @@
+.list-cell:empty {
+    -fx-background-color: khaki;
+    -fx-border-color: grey
+}

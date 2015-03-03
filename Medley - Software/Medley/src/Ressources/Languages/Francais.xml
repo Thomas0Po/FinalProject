@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LANGUAGE name="Francais" key="FR">
+		<MENUQUIT>
+			<FR>Quitter</FR>
+		</MENUQUIT>
+		<MENULANGUAGE>
+			<FR>Changer la langue</FR>
+		</MENULANGUAGE>
+		<MENUFILE>
+			<FR>Fichier</FR>
+		</MENUFILE>
+		<MENUVIEW>
+			<FR>Vue</FR>
+		</MENUVIEW>
+		<MENUPREFERENCES>
+			<FR>Préférences</FR>
+		</MENUPREFERENCES>
+		<MENUHELP>
+			<FR>Aide</FR>
+		</MENUHELP>
+		<MENUPLUGINS>
+			<FR>Plugins</FR>
+			<EN></EN>
+		</MENUPLUGINS>
+		<MENUNAVIGATION>
+			<FR>Navigation</FR>
+		</MENUNAVIGATION>
+		<CLOSELABEL>
+			<FR>Fermer</FR>
+		</CLOSELABEL>
+		<APPLYLABEL>
+			<FR>Appliquer</FR>
+		</APPLYLABEL>
+		<SHOWPLUGINLIST>
+			<FR>Afficher la liste des plugins</FR>
+		</SHOWPLUGINLIST>
+		<HIDEPLUGINLIST>
+			<FR>Cacher la liste des plugins</FR>
+		</HIDEPLUGINLIST>
+		<SHOWNAVIGATION>
+			<FR>Afficher la partie de navigation</FR>
+		</SHOWNAVIGATION>
+		<HIDENAVIGATION>
+			<FR>Cacher la partie de navigation</FR>
+		</HIDENAVIGATION>
+		<OPTIONS>
+			<FR>Options</FR>
+		</OPTIONS>
+		<GENERAL>
+			<FR>Général</FR>
+		</GENERAL>
+		<SHORTCUTS>
+			<FR>Raccourcis clavier</FR>
+		</SHORTCUTS>
+		<LABELAPPLY>
+			<FR>Appliquer</FR>
+		</LABELAPPLY>
+		<LABELCLOSE>
+			<FR>Fermer</FR>
+		</LABELCLOSE>
+		<LABELCANCEL>
+			<FR>Annuler</FR>
+		</LABELCANCEL>
+		<PLUGINSATLAUNCH>
+			<FR>Sélectionnez les plugins que vous voulez exécuter automatiquement au démarrage de Medley</FR>
+		</PLUGINSATLAUNCH>
+		<LABELNOPLUGINS>
+			<FR>Vous ne pouvez pas lancer de plugins au démarrage. Ajoutez-des plugins dans votre liste des plugins au préalable, puis retournez sur cet onglet pour pouvoir les sélectionner.</FR>
+		</LABELNOPLUGINS>
+</LANGUAGE>

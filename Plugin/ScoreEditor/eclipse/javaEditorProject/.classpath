@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/Users/favre/Documents/Project/EIP2/medley/trunk/MedleyAPI-V2/PluginContract.jar"/>
+	<classpathentry kind="lib" path="/Users/favre/Documents/Libraries/proxymusic-3.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/favre/Documents/Libraries/proxymusic-3.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/favre/Documents/Libraries/proxymusic-3.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/favre/Documents/Libraries/jfugue-4.0.3-with-musicxml.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Home"/>
+	<classpathentry kind="lib" path="/Users/favre/Documents/Libraries/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

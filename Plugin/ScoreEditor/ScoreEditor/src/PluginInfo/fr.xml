@@ -1,0 +1,5 @@
+<PluginInfo language="Francais" key="FR">
+ <Name>ScoreReader</Name>
+ <Description>Un editeur de partition au format musicXML</Description>
+ <Tips>Ce plugin créer un fichier xml respectant la norme musicXML</Tips>
+</PluginInfo>

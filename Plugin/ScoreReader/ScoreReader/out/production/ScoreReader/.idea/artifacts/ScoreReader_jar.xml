@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ScoreReader:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ScoreReader_jar</output-path>
+    <root id="archive" name="ScoreReader.jar">
+      <element id="module-output" name="ScoreReader" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libraries/jfugue-4.0.3-with-musicxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../EIP2/medley/trunk/Medley - Software/Medley/PluginContract.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libraries/proxymusic-3.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

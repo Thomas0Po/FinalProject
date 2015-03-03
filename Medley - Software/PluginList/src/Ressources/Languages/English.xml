@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LANGUAGES name="English" key="EN">
+		<MENUADDPLUGIN>
+			<EN>Add/Delete plugins from list</EN>
+		</MENUADDPLUGIN>
+		<MENUOPENPLUGIN>
+			<EN>Open selected plugin</EN>
+		</MENUOPENPLUGIN>
+		<LABELCANCEL>
+			<EN>Cancel</EN>
+		</LABELCANCEL>
+		<LABELAPPLY>
+			<EN>Apply</EN>
+		</LABELAPPLY>
+		<LABELCLOSE>
+			<EN>Close</EN>
+		</LABELCLOSE>
+		<LABELNOPLUGINS>
+			<EN>You have no plugin</EN>
+		</LABELNOPLUGINS>
+</LANGUAGES>

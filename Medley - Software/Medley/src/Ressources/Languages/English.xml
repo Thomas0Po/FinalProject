@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LANGUAGE name="English" key="EN">
+		<MENUQUIT>
+			<EN>Quit</EN>
+		</MENUQUIT>
+		<MENULANGUAGE>
+			<EN>Change the language</EN>
+		</MENULANGUAGE>
+		<MENUFILE>
+			<EN>File</EN>
+		</MENUFILE>
+		<MENUVIEW>
+			<EN>View</EN>
+		</MENUVIEW>
+		<MENUPREFERENCES>
+			<EN>Preferences</EN>
+		</MENUPREFERENCES>
+		<MENUHELP>
+			<EN>Help</EN>
+		</MENUHELP>
+		<MENUPLUGINS>
+			<EN>Plugins</EN>
+		</MENUPLUGINS>
+		<MENUNAVIGATION>
+			<EN>Navigation</EN>
+		</MENUNAVIGATION>
+		<CLOSELABEL>
+			<EN>Close</EN>
+		</CLOSELABEL>
+		<APPLYLABEL>
+			<EN>Apply</EN>
+		</APPLYLABEL>
+		<SHOWPLUGINLIST>
+			<EN>Show plugins list</EN>
+		</SHOWPLUGINLIST>
+		<HIDEPLUGINLIST>
+			<EN>Hide plugins list</EN>
+		</HIDEPLUGINLIST>
+		<HIDENAVIGATION>
+			<EN>Hide navigation part</EN>
+		</HIDENAVIGATION>
+		<SHOWNAVIGATION>
+			<EN>Show navigation part</EN>
+		</SHOWNAVIGATION>
+		<OPTIONS>
+			<EN>Options</EN>
+		</OPTIONS>
+		<GENERAL>
+			<EN>General</EN>
+		</GENERAL>
+		<SHORTCUTS>
+			<EN>Shortcuts</EN>
+		</SHORTCUTS>
+		<LABELAPPLY>
+			<EN>Apply</EN>
+		</LABELAPPLY>
+		<LABELCLOSE>
+			<EN>Close</EN>
+		</LABELCLOSE>
+		<LABELCANCEL>
+			<EN>Cancel</EN>
+		</LABELCANCEL>
+		<PLUGINSATLAUNCH>
+			<EN>Select the plugins you want to execute automatically when you launch Medley</EN>
+		</PLUGINSATLAUNCH>
+		<LABELNOPLUGINS>
+			<EN>You cannot launch plugins at start. Add the plugins you want in your plugin list before, and then come back on this tab to select them.</EN>
+		</LABELNOPLUGINS>
+</LANGUAGE>

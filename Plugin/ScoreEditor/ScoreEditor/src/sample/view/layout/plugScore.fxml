@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+ <?import sample.* ?>
+
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+        fx:controller="sample.controller.plugScoreController">
+   <bottom>
+      <HBox minHeight="20.0" prefHeight="20.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="scoreInfosLabel" minHeight="20.0" text="${controller.scoreInfos}">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin></Label>
+         </children>
+         <BorderPane.margin>
+            <Insets left="5.0" />
+         </BorderPane.margin>
+      </HBox>
+   </bottom>
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+            <Button fx:id="playButton"      mnemonicParsing="false" onAction="#playButtonClicked"   text="${controller.playButtonString}"   />
+            <Button fx:id="stopButton"      mnemonicParsing="false" onAction="#stopButtonClicked"   text="${controller.stopButtonString}"   />
+            <Button fx:id="savebutton"      mnemonicParsing="false" onAction="#saveButtonClicked"   text="save"                             />
+            <Button fx:id="eraseButton"     mnemonicParsing="false" onAction="#Erase"               text="reset"                             />
+
+
+
+            <Button fx:id="CNoteButton" onAction="#CNoteClicked" text="C"/>
+            <Button fx:id="DNoteButton" onAction="#DNoteClicked" text="D"/>
+            <Button fx:id="ENoteButton" onAction="#ENoteClicked" text="E"/>
+            <Button fx:id="FNoteButton" onAction="#FNoteClicked" text="F"/>
+            <Button fx:id="GNoteButton" onAction="#GNoteClicked" text="G"/>
+            <Button fx:id="ANoteButton" onAction="#ANoteClicked" text="A"/>
+            <Button fx:id="BNoteButton" onAction="#BNoteClicked" text="B"/>
+
+            <Button fx:id="C5NoteButton" onAction="#C5NoteClicked" text="C5"/>
+            <Button fx:id="D5NoteButton" onAction="#D5NoteClicked" text="D5"/>
+            <Button fx:id="E5NoteButton" onAction="#E5NoteClicked" text="E5"/>
+            <Button fx:id="F5NoteButton" onAction="#F5NoteClicked" text="F5"/>
+            <Button fx:id="G5NoteButton" onAction="#G5NoteClicked" text="G5"/>
+            <Button fx:id="A5NoteButton" onAction="#A5NoteClicked" text="A5"/>
+            <Button fx:id="B5NoteButton" onAction="#B5NoteClicked" text="B5"/>
+        </items>
+      </ToolBar>
+   </top>
+   <center>
+      <ListView fx:id="staveListView"
+                prefHeight="200.0"
+                prefWidth="200.0"
+                BorderPane.alignment="CENTER"/>
+   </center>
+</BorderPane>

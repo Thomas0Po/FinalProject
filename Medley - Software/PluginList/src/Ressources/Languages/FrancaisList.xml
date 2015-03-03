@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LANGUAGE name="Francais" key="FR">
+		<MENUADDPLUGIN>
+			<FR>Ajouter/Supprimer des plugins de la liste</FR>
+		</MENUADDPLUGIN>
+		<MENUOPENPLUGIN>
+			<FR>Ouvrir le plugin sélectionné</FR>
+		</MENUOPENPLUGIN>
+		<LABELCANCEL>
+			<FR>Annuler</FR>
+		</LABELCANCEL>
+		<LABELAPPLY>
+			<FR>Appliquer</FR>
+		</LABELAPPLY>
+		<LABELCLOSE>
+			<FR>Fermer</FR>
+		</LABELCLOSE>
+		<LABELNOPLUGINS>
+			<FR>Vous n'avez pas de plugins</FR>
+		</LABELNOPLUGINS>
+</LANGUAGE>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="/MedleyAPI/PluginContract.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre8/lib/jfxswt.jar"/>
+	<classpathentry kind="lib" path="JDOM/jdom-2.0.4.jar"/>
+	<classpathentry kind="lib" path="/Medley/MedleyUtils.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

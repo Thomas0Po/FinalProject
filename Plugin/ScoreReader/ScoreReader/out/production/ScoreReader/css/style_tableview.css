@@ -1,0 +1,13 @@
+.list-cell:empty {
+    -fx-background-color: khaki;
+    -fx-border-color: grey
+}
+
+.list-cell:hover{
+    -fx-background-color: blanchedalmond;
+}
+
+.list-cell:selected{
+    -fx-background-color: chocolate;
+}
+

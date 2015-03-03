@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SHORTCUTS>
+  <OPENPLUGIN description="ouvrir le plugin sélectionné">Ctrl+A</OPENPLUGIN>
+  <PLUGINSLISTVISIBILITY description="Cacher/montrer la liste des plugins">L</PLUGINSLISTVISIBILITY>
+  <NAVIGATIONVISIBILITY description="Cacher/montrer la partie de navigation">N</NAVIGATIONVISIBILITY>
+  <QUIT description="Quitter Medley">Ctrl+D</QUIT>
+  <CHANGELANGUAGE description="Changer de langue">Ctrl+J</CHANGELANGUAGE>
+  <OPTIONS description="Ouvrir le menu options">O</OPTIONS>
+  <ADDTAB description="Ouvrir un nouvel onglet navigation">Ctrl+N</ADDTAB>
+  <ADDCUSTOMTAB description="Ouvrir un nouvel onglet de navigation personnalisé">Ctrl+C</ADDCUSTOMTAB>
+  <DELTAB description="Supprimer l'onglet de navigation sélectionné">Ctrl+D</DELTAB>
+</SHORTCUTS>

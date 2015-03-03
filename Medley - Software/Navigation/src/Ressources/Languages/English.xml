@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LANGUAGES name="English" key="EN">
+<ADDNEWTAB>
+		<EN>Add new tab</EN>
+	</ADDNEWTAB>
+	<ADDCUSTOMTAB>
+		<EN>Add new custom tab</EN>
+	</ADDCUSTOMTAB>
+	<DELTAB>
+		<EN>Delete selected tab</EN>
+	</DELTAB>
+	<CHANGEDIR>
+		<EN>Change the default directory</EN>
+	</CHANGEDIR>
+	<MUSICLABEL>
+		<EN>Music</EN>
+	</MUSICLABEL>
+	<SCORELABEL>
+		<EN>Scores</EN>
+	</SCORELABEL>
+	<TABLABEL>
+		<EN>Tabs</EN>
+	</TABLABEL>
+	<MYDIRLABEL>
+		<EN>My Directories</EN>
+	</MYDIRLABEL>
+	<SETEXTMENU>
+		<EN>Modify file's extension</EN>
+	</SETEXTMENU>
+	<SETEXTDESCRIPTION>
+		<EN>Add any file's extensions separate by a ";"</EN>
+	</SETEXTDESCRIPTION>
+	<SETEXTAPPLYBUTTON>
+		<EN>Apply</EN>
+	</SETEXTAPPLYBUTTON>
+	<SETEXTCANCELBUTTON>
+		<EN>Cancel</EN>
+	</SETEXTCANCELBUTTON>
+</LANGUAGES>

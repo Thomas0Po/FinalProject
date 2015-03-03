@@ -1,0 +1,6 @@
+.list-cell{
+
+    -fx-background-image: url("../image/music-sheet.png");
+    -fx-background-repeat: repeat-x;
+    -fx-cell-size: 100;
+}

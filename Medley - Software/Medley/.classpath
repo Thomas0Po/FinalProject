@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="PluginContract.jar"/>
+	<classpathentry kind="lib" path="javafx-dialogs-0.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre7/lib/jfxrt.jar"/>
+	<classpathentry kind="lib" path="src/Ressources/JDOM/jdom-2.0.4.jar"/>
+	<classpathentry kind="lib" path="MedleyUtils.jar"/>
+	<classpathentry kind="lib" path="/Navigation/src/Ressources/commons-io-2.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

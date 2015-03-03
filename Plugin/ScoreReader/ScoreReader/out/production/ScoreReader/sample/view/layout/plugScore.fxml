@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+ <?import sample.* ?>
+
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+        fx:controller="sample.controller.plugScoreController">
+   <bottom>
+      <HBox minHeight="20.0" prefHeight="20.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="scoreInfosLabel" minHeight="20.0" text="${controller.scoreInfos}">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin></Label>
+         </children>
+         <BorderPane.margin>
+            <Insets left="5.0" />
+         </BorderPane.margin>
+      </HBox>
+   </bottom>
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <Button fx:id="playButton" mnemonicParsing="false" onAction="#playButtonClicked" text="${controller.playButtonString}" />
+            <Button fx:id="stopButton" mnemonicParsing="false" onAction="#stopButtonClicked" text="${controller.stopButtonString}" />
+            <Button fx:id="importButton" mnemonicParsing="false" onAction="#importButtonClicked" text="${controller.importButtonString}" />
+            <Button fx:id="repeatButton" mnemonicParsing="false" onAction="#repeatButtonClicked" text="loop" />
+
+        </items>
+      </ToolBar>
+   </top>
+   <center>
+      <ListView fx:id="staveListView"
+                prefHeight="200.0"
+                prefWidth="200.0"
+                BorderPane.alignment="CENTER"/>
+   </center>
+</BorderPane>

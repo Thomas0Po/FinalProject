@@ -1,0 +1,387 @@
+/**** MEDLEY SOFTWARE CSS STYLESHEET ****/
+
+
+.accordion > .titled-pane > .title {
+	    -fx-background-color: linear-gradient(darkgrey 20%, black 100%)  !important;
+    -fx-background-insets: -1 0 0 0, 0 1 1 1, 1 2 2 2;
+    -fx-background-radius: 0, 0, 0;
+	-fx-text-fill: white;
+}
+
+.accordion > .titled-pane > .title  .text {
+	-fx-text-fill: white;
+
+	
+}
+
+/* SCENE */
+
+.scene {
+	-fx-background-size: 100%;
+	-fx-background-image: url("../Ressources/Images/fondTabpane.jpg");
+	-fx-font-family: "Century Gothic";
+}
+
+.rootBorderCenter {
+	-fx-background-size: 100%;
+	-fx-background-image: url("../Ressources/Images/fondTabpane.jpg");
+	-fx-font-family: "Century Gothic";
+}
+
+/* TOOLBAR */
+
+
+.menuBar {
+	-fx-fill: black;
+	-fx-background-color: white;
+	-fx-text-fill: black;
+	-fx-font-size: 14px;  
+	-fx-font-family: "Century Gothic";
+	-fx-min-height: 32px;
+}
+
+.menu:hover{
+	-fx-fill: black;
+	-fx-background-color: white;
+	-fx-text-fill: black;
+}
+ 
+.menu:hover .label{
+	-fx-fill: black;
+	-fx-border-color: #e39761;
+	-fx-border-width: 0 0 3 0;
+	-fx-text-fill: black;
+}
+
+.menu:hover .menu-item .label{
+	-fx-fill: black;
+	-fx-border-width: 0 0 0 0;
+	-fx-border-color: white;
+	-fx-text-fill: black;
+}
+
+.menu:showing {
+	-fx-fill: black;
+	-fx-background-color: white;
+	-fx-text-fill: black;
+}
+
+.menu:showing .label {
+	-fx-fill: black;
+	-fx-text-fill: black;
+}
+
+.menu:showing .menu-item .label{
+	-fx-fill: black;
+	-fx-border-width: 0 0 0 0;
+	-fx-border-color: white;
+	-fx-text-fill: black;
+	
+}
+
+.menu-item:focused{
+	-fx-fill: black;
+	-fx-text-fill: black;
+	-fx-background-color: linear-gradient(white 20%, #e4985c 100%);
+}
+
+.menu-item:focused .menu:showing{
+	-fx-fill: black;
+	-fx-background-color: white;
+	-fx-border-color: #e89758;
+	-fx-border-width: 0 0 3 0;
+	-fx-text-fill: black;
+}
+
+.menu-item:focused > .menu:hover{
+	-fx-background-color: red;
+	-fx-text-fill: black;
+}
+
+.menuBar .menu:hover .label .text{
+	-fx-fill: black;
+	-fx-text-fill: black;
+}
+
+.menuBar .menu:focused .label .text{
+	-fx-text-fill: red;
+}
+
+/* LISTVIEW */
+
+.listviewVerticalbox{
+	-fx-background-color: rgba(0, 0, 0, 0.5);	
+}
+
+.medleyListView{
+	-fx-background-color: transparent;
+		-fx-control-inner-background: transparent ;
+		
+	
+}
+
+.medleyListView > .list-cell  {
+	-fx-background-color: transparent;
+	-fx-control-inner-background: transparent ;
+	-fx-font-size: 22px;
+	-fx-alignment: center ;
+	-fx-text-alignment: center ;
+}
+
+.list-cell:empty {
+    visibility:hidden;
+}
+
+
+.medleyListView .list-cell:filled:hover, .medleyListView .list-cell:hover {
+	-fx-control-inner-background: #48433f ;
+    -fx-background-color: #312e2c !important;
+    -fx-text-fill: white;
+}
+
+.medleyListView .list-cell:filled:selected:focused, .medleyListView .list-cell:filled:selected {
+    -fx-background-color: black !important;
+    -fx-text-fill: white;
+}
+
+.medleyListView .text{
+	-fx-alignment: center ;
+	-fx-text-alignment: center ;
+		-fx-font-size: 22px;
+	
+	}
+
+.medleyListView .list-cell .medleyListViewLabel{
+	-fx-padding: 10 0 0 20;
+	-fx-alignment: center  ;
+	-fx-text-alignment: center ;
+	-fx-text-fill: white;
+	-fx-background-color: transparent;
+	-fx-control-inner-background: transparent ;
+	-fx-font-size: 22px;
+	
+}
+
+.listviewHeader{
+	-fx-background-color: white;
+	/*-fx-alignment: center;*/
+	-fx-alignment: center-left ;
+	-fx-padding: 5 0 5 20;
+}
+
+.listviewHeaderText{
+	-fx-text-fill: black;
+	-fx-font-size: 18px;
+	-fx-padding: 0 0 0 40;
+	-fx-text-alignment: center ;
+	
+}
+
+.listviewHeaderImage {
+}
+
+
+/* WORKSPACE */
+
+.verticalSplit{
+}
+
+.borderlistview{
+	
+}
+
+.workspacePane{
+	-fx-background-size: 100%;
+	-fx-background-color: transparent;
+}
+
+.topborder{
+	-fx-background-color: transparent ;
+}
+
+ 
+.split-pane{
+	-fx-background-color: transparent  ;
+}
+
+
+.tab:focused {
+	-fx-background-color: linear-gradient(#e4985c 10%, rgba(255, 255, 255, 0.8) 20%);
+	-fx-size: 50px;
+	-fx-background-insets: 0 1 0 1,0,0;
+	-fx-background-radius: 0;	
+}
+
+.tab:disabled {
+	
+	-fx-background-color:  transparent, transparent,linear-gradient(#e4985c 10%, rgba(255, 255, 255, 0.8) 90%);
+	-fx-size: 50px;
+	-fx-background-insets: 0 1 0 1,0,0;
+	-fx-background-radius: 0;
+}
+
+.tab:selected {
+	
+	-fx-background-color: transparent, transparent, linear-gradient(#e4985c 10%, rgba(255, 255, 255, 0.8) 20%);
+	-fx-size: 50px;
+	-fx-background-insets: 0 0 0 0,0,0;
+	-fx-background-radius: 0;
+	-fx-border-color: transparent ;	
+}
+
+
+.tab:selected .focus-indicator {
+    -fx-border-width: 0, 0;
+    -fx-border-color: transparent, transparent;
+    -fx-border-insets: 0 0 0 0, 0 0 0 0;
+    -fx-border-radius: 0, 0;
+}
+
+.tab {
+	
+	-fx-background-color:  transparent, transparent,linear-gradient(#e4985c 10%, rgba(255, 255, 255, 0.7) 20%);
+	-fx-size: 50px;
+	-fx-background-insets: 0 1 0 1,0,0;
+	-fx-background-radius: 0;	
+}
+
+.tab-pane{
+	
+	-fx-background-color: transparent;
+	-fx-tab-min-width: 100;
+}
+
+.tab-close-button 
+{
+	-fx-shape: "";
+	-fx-background-image: url("../Ressources/Images/tabCloseButton.png");
+	-fx-background-color: transparent ;
+	-fx-background-size: 18;
+	-fx-background-position: center ;
+
+}
+
+.tab-close-button:hover{
+	-fx-shape: "";
+	-fx-background-image: url("../Ressources/Images/tabCloseButton.png");
+	-fx-background-color: transparent ;
+	-fx-background-size: 20;
+}
+
+.tab-pane > .tab-header-area > .tab-header-background  {
+	-fx-background-color: transparent;
+}
+
+.tab-content-area {
+	-fx-background-color: transparent;
+	-fx-background-color: rgba(255, 255, 255, 0.6);
+}
+
+.split-paneinvisible > .split-pane-divider {
+   -fx-background-insets: 0, 0 0 0 0;
+   -fx-padding: 0 0 0 0; 
+   -fx-display-caret: false;
+   -fx-content-display: none;
+}
+
+.split-panevisible > .split-pane-divider {
+   -fx-background-insets: 0, 0 1 0 1;
+   -fx-background-color: -fx-box-border, -fx-inner-border-horizontal;
+   -fx-padding: 0 0.25em 0 0.25em; 
+   -fx-display-caret: true;
+}
+
+.split-panevisible:horizontal > .split-pane-divider {
+   -fx-background-insets: 0, 0 1 0 1;
+   -fx-background-color: -fx-box-border, -fx-inner-border-horizontal;
+   -fx-padding: 0 0.25em 0 0.25em; 
+   -fx-display-caret: true;
+}
+
+.split-panevisible:vertical > .split-pane-divider {
+   -fx-background-insets: 0, 0 1 0 1;
+   -fx-padding: 0 0.25em 0 0.25em; 
+   -fx-background-color: -fx-box-border, -fx-inner-border-horizontal;
+   -fx-display-caret: true;
+   
+}
+
+/* NAVIGATION */
+
+.navigContextMenu{
+	-fx-text-fill: black;
+}
+
+.navigContextMenu .menu-item:focused .label{
+	-fx-text-fill: black;
+}
+
+.navigLabels {
+	-fx-background-color: white;
+	-fx-font-family: "Century Gothic";
+	-fx-font-size: 14px;	
+}
+
+.navigGridLayout{
+	-fx-background-color: transparent ;
+}
+
+.separator{
+	-fx-opacity: 0;
+}
+
+.navigTabList{
+	-fx-background-color: transparent;
+}
+
+.navigTabList .list-cell{
+	-fx-background-color: transparent;
+}
+
+.navigTree{
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+}
+
+.navigTree .tree-cell{
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+}
+
+.navigTree .tree-cell:selected{
+	-fx-background-color: black;
+	-fx-text-fill: white;
+}
+
+.navigTabpane{
+	-fx-background-color: transparent;
+}
+
+.navigTabpane .tab-content-area{
+	-fx-background-color: rgba(212, 207, 207, 0.5);
+	/*-fx-background-color: transparent;*/
+}
+
+.Test{
+	-fx-background-color: white;
+	
+}
+
+.treePane{
+	-fx-border-color: white;
+	-fx-border-width: 0 1 0 0;
+}
+
+.navigList{
+	-fx-border-color: white;
+	-fx-border-width: 0 1 0 0;
+	
+}
+
+.tree-cell:selected {
+	-fx-background-color: black;
+}
+
+.tree-cell:focused {
+	-fx-background-color: black;
+}

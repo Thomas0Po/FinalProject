@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+  <plugin name="Accordeur" description="Pas de description disponible" path="C:\env_dev\workspace\Medley\src\Ressources\" iconName="jar:file:C:\env_dev\workspace\Medley\src\Ressources\Accordeur.jar!/Icon.png" toCharge="true" toHide="false" toRun="false" />
+  <plugin name="soundRecorder" description="Pas de description disponible" path="C:\env_dev\workspace\Medley\src\Ressources\" iconName="jar:file:C:\env_dev\workspace\Medley\src\Ressources\soundRecorder.jar!/Icon.png" toCharge="true" toHide="false" toRun="false" />
+</plugins>

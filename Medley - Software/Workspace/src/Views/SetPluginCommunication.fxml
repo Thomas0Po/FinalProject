@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox alignment="CENTER" maxHeight="50.0" prefHeight="50.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="IconPlugin" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Music/London%20Grammar%20-%20If%20You%20Wait%20%5B2013%5D%20%5BMp3%5D%20%5B320Kbps%5D/Cover.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="PluginNameLabel" prefHeight="50.0" text="Plugin de Test">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="10.0" top="5.0" />
+         </BorderPane.margin>
+      </HBox>
+   </top>
+   <bottom>
+      <HBox alignment="TOP_RIGHT" BorderPane.alignment="TOP_LEFT">
+         <children>
+            <Button fx:id="resetButton" minWidth="60.0" mnemonicParsing="false" onAction="#resetButtonClicked" text="Reset" />
+            <Button fx:id="OkButton" minWidth="60.0" mnemonicParsing="false" onAction="#okButtonClicked" text="Ok">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="5.0" right="5.0" top="5.0" />
+         </BorderPane.margin>
+      </HBox>
+   </bottom>
+   <center>
+      <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" minWidth="285.0">
+               <children>
+                  <Label fx:id="PluginInputLabel" alignment="CENTER" contentDisplay="CENTER" text="Plugins in Input" />
+                  <HBox>
+                     <children>
+                        <ComboBox fx:id="PluginInputComboBox" prefHeight="25.0" prefWidth="170.0" />
+                        <Button fx:id="PluginInputAddButton" minWidth="60.0" mnemonicParsing="false" onAction="#addInputButtonClicked" text="Add">
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="PluginInputDeleteButton" minWidth="60.0" mnemonicParsing="false" onAction="#delInputButtonClicked" prefHeight="25.0" prefWidth="100.0" text="Delete">
+                           <HBox.margin>
+                              <Insets right="1.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <ListView fx:id="PluginInputListView" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" />
+               </children>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox alignment="TOP_CENTER" minWidth="285.0">
+               <children>
+                  <Label fx:id="PluginOutputLabel" text="Plugins in Output" />
+                  <HBox>
+                     <children>
+                        <ComboBox fx:id="PluginOutputComboBox" prefHeight="25.0" prefWidth="170.0" />
+                        <Button fx:id="PluginOutputAddButton" minWidth="60.0" mnemonicParsing="false" onAction="#addOutputButtonClicked" text="Ajouter">
+                           <HBox.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="PluginOutputDeleteButton" minWidth="60.0" mnemonicParsing="false" onAction="#delOutputButtonClicked" prefHeight="25.0" prefWidth="100.0" text="Delete">
+                           <HBox.margin>
+                              <Insets left="1.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <ListView fx:id="PluginOutputListView">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </ListView>
+               </children>
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+         <BorderPane.margin>
+            <Insets left="5.0" right="5.0" />
+         </BorderPane.margin>
+      </HBox>
+   </center>
+</BorderPane>

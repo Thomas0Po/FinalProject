@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LANGUAGES name="Francais" key="FR">
+	<ADDNEWTAB>
+		<FR>Ajouter un nouvel onglet</FR>
+	</ADDNEWTAB>
+	<ADDCUSTOMTAB>
+		<FR>Ajouter un nouvel onglet personnalisé</FR>
+	</ADDCUSTOMTAB>
+	<DELTAB>
+		<FR>Supprimer l'onglet sélectionné</FR>
+	</DELTAB>
+	<CHANGEDIR>
+		<FR>Changer le dossier par defaut</FR>
+	</CHANGEDIR>
+	<HIDENAV>
+		<FR>Cacher la partie navigation</FR>
+	</HIDENAV>
+	<SHOWNAV>
+		<FR>Montrer la partie navigation</FR>
+	</SHOWNAV>
+	<MUSICLABEL>
+		<FR>Musiques</FR>
+	</MUSICLABEL>
+	<SCORELABEL>
+		<FR>Partitions</FR>
+	</SCORELABEL>
+	<TABLABEL>
+		<FR>Tablatures</FR>
+	</TABLABEL>
+	<MYDIRLABEL>
+		<FR>Mes Dossiers</FR>
+	</MYDIRLABEL>
+	<SETEXTMENU>
+		<FR>Modifier les extensions de fichier</FR>
+	</SETEXTMENU>
+	<SETEXTDESCRIPTION>
+	<FR>Ajoutez les extensions de fichiers que vous
+	souhaitez voir s'afficher dans la partie navigation
+	separées par un ";"</FR>
+	</SETEXTDESCRIPTION>
+	<SETEXTAPPLYBUTTON>
+	<FR>Appliquer</FR>
+	</SETEXTAPPLYBUTTON>
+	<SETEXTCANCELBUTTON>
+	<FR>Annuler</FR>
+	</SETEXTCANCELBUTTON>
+</LANGUAGES>

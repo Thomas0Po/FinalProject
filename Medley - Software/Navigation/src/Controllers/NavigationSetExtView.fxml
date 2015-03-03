@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import Controllers.NavigationSetExtController?>
+<?import Views.TextFieldSetExt?>
+
+<!-- fx:controller="Controllers.NavigationSetExtController" -->
+
+<GridPane  
+    xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10" maxHeight="Infinity" maxWidth="Infinity">
+<padding><Insets top="25" right="25" bottom="10" left="25"/></padding>
+	<Text text="${controller.description}" 
+        GridPane.columnIndex="0" GridPane.rowIndex="0"
+        GridPane.columnSpan="2" GridPane.hgrow="always" GridPane.vgrow="always"/>
+ 
+    <Label text="${controller.scoreLabel}"
+        GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.hgrow="always" GridPane.vgrow="always"/>
+ 
+    <TextFieldSetExt fx:id="scoreExt" value="${controller.oldScoreExt}"
+        GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.hgrow="always" GridPane.vgrow="always"/>
+ 
+    <Label text="${controller.tabLabel}" 
+        GridPane.columnIndex="0" GridPane.rowIndex="2" GridPane.hgrow="always" GridPane.vgrow="always"/>
+ 
+    <TextFieldSetExt  fx:id="tabExt" value="${controller.oldTabExt}"
+        GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.hgrow="always" GridPane.vgrow="always"/>
+     
+    <Label text="${controller.musicLabel}"
+        GridPane.columnIndex="0" GridPane.rowIndex="3" GridPane.hgrow="always" GridPane.vgrow="always"/>
+ 
+    <TextFieldSetExt fx:id="musicExt" value="${controller.oldMusicExt}"
+        GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.hgrow="always" GridPane.vgrow="always"/>
+        
+    <HBox spacing="10" alignment="bottom_right" 
+        GridPane.columnIndex="1" GridPane.rowIndex="4" GridPane.hgrow="always" GridPane.vgrow="always">
+        <Button fx:id="applyButton" text="${controller.applyButtonText}"     
+        onAction="#applyButtonClicked"/>
+        <Button fx:id="cancelButton" text="${controller.cancelButtonText}" onAction="#cancelButtonClicked"/>
+	</HBox>
+
+	<Text fx:id="actiontarget"
+       GridPane.columnIndex="1" GridPane.rowIndex="6"/> 
+</GridPane>
+
+

@@ -1,0 +1,74 @@
+.scene {
+	-fx-background-size: 100%;
+	-fx-background-image: url("../Ressources/Images/fondTabpane.jpg") ;
+}
+
+.optionBorderPane{
+	-fx-background-size: 100%;
+	-fx-background-image: url("../Ressources/Images/fondTabpane.jpg") ;
+}
+
+.list-view{
+	-fx-background-color: transparent 
+}
+
+ .tab-header-background {
+	-fx-background-color: transparent  ;
+	-fx-text-fill: white;
+}
+
+.tab-header-area {
+	
+	-fx-text-fill: white;
+}
+
+.tab-pane {
+	
+	-fx-background-color: transparent ;
+}
+
+.tab {
+	-fx-background-color: rgba(228, 152, 92, 0.2);
+	-fx-color-label-visible: white;
+	-fx-text-fill: white;
+}
+
+.tab .tab-label {
+	-fx-rotate: 90;
+	-fx-padding: 0 0 0 0;
+}
+
+.tab .label {
+		-fx-padding: 0 0 0 0;
+	
+	-fx-color-label-visible: white;
+	-fx-text-fill: white;
+}
+
+.tab:selected {
+-fx-background-color: rgba(228, 152, 92, 0.6);
+	-fx-text-fill: white;
+}
+
+
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-border-width: 0, 0;
+    -fx-border-color: transparent ;
+    
+}
+
+.tab-content {
+	-fx-background-color: transparent ;
+}
+
+.accordion{
+	-fx-background-color: transparent ;
+}
+
+.pane {
+	-fx-background-color: transparent ;
+}
+
+.border-pane{
+	-fx-background-color: transparent ;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigation>
+  <path>C:\Users\Persus</path>
+  <extension type="music">ogg</extension>
+  <extension type="music">mp3</extension>
+  <extension type="music">wave</extension>
+  <extension type="tab">tab</extension>
+  <extension type="tab">part</extension>
+  <extension type="score">part</extension>
+</navigation>

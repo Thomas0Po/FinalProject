@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Label fx:id="PluginCommunicationTitleLabel" text="Plugin Communication" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets bottom="10.0" top="10.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+   <bottom>
+      <HBox alignment="TOP_RIGHT" nodeOrientation="LEFT_TO_RIGHT" prefHeight="35.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="ResetButton" mnemonicParsing="false" onAction="#ResetButtonClicked" prefHeight="27.0" prefWidth="57.0" text="Reset" textAlignment="CENTER">
+               <HBox.margin>
+                  <Insets bottom="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="editButton" mnemonicParsing="false" onAction="#editButtonClicked" prefHeight="27.0" prefWidth="57.0" text="Edit">
+               <HBox.margin>
+                  <Insets right="5.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="OKButton" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#OkButtonClicked" prefHeight="25.0" prefWidth="57.0" text="Ok" textAlignment="CENTER">
+               <HBox.margin>
+                  <Insets bottom="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </HBox>
+   </bottom>
+   <left>
+      <ListView fx:id="RunningPluginsListView" prefHeight="320.0" prefWidth="250.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="5.0" />
+         </BorderPane.margin>
+      </ListView>
+   </left>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="6.0" right="5.0" />
+         </BorderPane.margin>
+         <children>
+            <Label fx:id="PluginInfoLabel" text="Plugin Description :">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="2.0" top="2.0" />
+               </VBox.margin>
+            </Label>
+            <TextArea fx:id="PluginInfoTextArea" editable="false" prefHeight="146.0" prefWidth="334.0" text="Plugins description" />
+            <Label fx:id="TipForCommunicationLabel" text="Plugin Communication :">
+               <VBox.margin>
+                  <Insets bottom="2.0" top="3.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="TipsForCommunicationTextArea" editable="false" prefHeight="146.0" prefWidth="334.0" text="Tips for Plugins Communication" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

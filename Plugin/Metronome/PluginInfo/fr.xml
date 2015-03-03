@@ -1,0 +1,5 @@
+<PluginInfo language="Francais" key="FR">
+ <Name>Metronome</Name>
+ <Description>Outil qui permet de donner un Tempo</Description>
+ <Tips>En sortie il envoi un tempo</Tips>
+</PluginInfo>
